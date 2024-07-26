@@ -3,10 +3,10 @@ body {
     min-height: 100vh;
     max-width: 50rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   margin: 0 auto; 
-   display: flex;
-   justify-content: center;
-   align-items: center;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .tabs{
     display: flex;
@@ -14,9 +14,15 @@ body {
     height: 300px;
     width: 500px;
 }
+
 label{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2px;
+    padding: 1rem 2rem;
+    margin-right: 0.2rem;
+    cursor: pointer;
+    background-color: #d8a871;
+    font-weight: bold;
+    transition: backgrouond ease 0.2s;
 }
