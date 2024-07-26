@@ -24,5 +24,16 @@ label{
     cursor: pointer;
     background-color: #d8a871;
     font-weight: bold;
-    transition: backgrouond ease 0.2s;
+    /*transition: backgrouond ease 0.2s;   << this line didn ' t work propermly*/
+}
+
+.tab{
+    flex-grow: 1;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    display: none;
+    background: #fff;
+    padding: 20px;
+    box-shadow: -5px 10px 0px 0px #c7afb8;
 }
