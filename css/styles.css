@@ -14,3 +14,9 @@ body {
     height: 300px;
     width: 500px;
 }
+label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+}
